@@ -1,0 +1,78 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgba(0, 0, 0, 0.6) url("header-image.png") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    background-blend-mode: darken;
+}
+
+.logo {
+    color: #e50914;
+    font-family: Impact, sans-serif;
+    font-size: 42px;
+    font-weight: 500;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.btn {
+    padding: 8px 15px;
+    color: #fff;
+    background-color: #e50914;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav {
+    padding-top: 5px;
+    padding-left: 4vw;
+    padding-right: 5vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+select {
+    margin-left: 70%;
+    padding: 8px;
+}
+
+.content {
+    color: #fff;
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 35%;
+}
+
+.content h1 {
+    font-size: 50px;
+}
+
+.content h2 {
+    font-size: 30px;
+}
+
+.mail {
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mail input {
+    outline: none;
+    border: none;
+    padding: 10px 10px;
+    font-size: 1em;  
+}
+.mail a {
+    background-color: #e50914;
+    color: #fff;
+    padding: 18px 12px;
+    text-decoration: none;
+}
